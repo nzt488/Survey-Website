@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Surveyors & Copiers | DGPS Land Survey in Solapur</title>
+    <meta name="description" content="High-precision DGPS survey, land measurement, demarcation, and 7/12 extract assistance in Solapur district, Maharashtra.">
+    <meta name="keywords" content="DGPS survey Solapur, land measurement Solapur, demarcation service Solapur, 7/12 extract help Maharashtra, land surveyor Solapur">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<header class="navbar" id="navbar">
+    <div class="nav-inner">
+        <!-- Logo -->
+        <a href="#" class="logo-wrap">
+            <svg class="logo-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#FFC107" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/>
+                <line x1="9" y1="3" x2="9" y2="18"/>
+                <line x1="15" y1="6" x2="15" y2="21"/>
+                <circle cx="12" cy="11" r="2.5" fill="#FFC107"/>
+            </svg>
+            <div class="logo-text-block">
+                <span class="logo-name">SAMARTH SURVEYORS</span>
+                <span class="logo-tag">Precision. Integrity. Results.</span>
+            </div>
+        </a>
+
+        <!-- Nav Links -->
+        <nav class="nav-links">
+            <a href="#services" data-en="Services" data-mr="सेवा">Services</a>
+            <a href="#work" data-en="Work" data-mr="प्रकल्प">Work</a>
+            <a href="#about" data-en="About" data-mr="आमच्याबद्दल">About</a>
+            <a href="#contact" data-en="Contact" data-mr="संपर्क">Contact</a>
+        </nav>
+
+        <!-- Actions -->
+        <div class="nav-right">
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-opt" id="lang-en">EN</span>
+                <span class="lang-sep">|</span>
+                <span class="lang-opt" id="lang-mr">मराठी</span>
+            </button>
+            <a href="https://wa.me/919511298070" class="nav-wa-btn" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.171.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.098.824z"/></svg>
+                <span data-en="WhatsApp" data-mr="व्हॉट्सॲप">WhatsApp</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="hero">
+    <!-- Background image -->
+    <div class="hero-bg-img" id="hero-parallax">
+        <img src="assets/dgps_survey.png" alt="DGPS Survey Equipment in Solapur" />
+    </div>
+    <!-- Dark overlay -->
+    <div class="hero-overlay"></div>
+
+    <!-- Animated grid + pulse markers -->
+    <div class="hero-grid-layer" aria-hidden="true">
+        <svg class="hero-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <defs>
+                <pattern id="grid" width="8" height="8" patternUnits="userSpaceOnUse">
+                    <path d="M 8 0 L 0 0 0 8" fill="none" stroke="rgba(255,193,7,0.18)" stroke-width="0.4"/>
+                </pattern>
+            </defs>
+            <rect width="100" height="100" fill="url(#grid)"/>
+            <line class="scanner-line" x1="0" y1="20" x2="100" y2="20" stroke="#FFC107" stroke-width="0.6" opacity="0.7"/>
+            <!-- DGPS Marker nodes -->
+            <g class="dgps-node" style="transform-origin:25% 40%">
+                <circle cx="25" cy="40" r="1.2" fill="#FFC107"/>
+                <circle class="pulse-ring" cx="25" cy="40" r="1.2" fill="none" stroke="#FFC107" stroke-width="0.5"/>
+            </g>
+            <g class="dgps-node" style="transform-origin:65% 60%">
+                <circle cx="65" cy="60" r="1.2" fill="#FFC107"/>
+                <circle class="pulse-ring" cx="65" cy="60" r="1.2" fill="none" stroke="#FFC107" stroke-width="0.5"/>
+            </g>
+            <g class="dgps-node" style="transform-origin:82% 30%">
+                <circle cx="82" cy="30" r="1.2" fill="#FFC107"/>
+                <circle class="pulse-ring" cx="82" cy="30" r="1.2" fill="none" stroke="#FFC107" stroke-width="0.5"/>
+            </g>
+            <!-- Boundary polygon -->
+            <polyline class="boundary-poly" points="25,40 65,60 82,30 25,40" fill="none" stroke="#FFC107" stroke-width="0.4" opacity="0.5" stroke-dasharray="200" stroke-dashoffset="200"/>
+        </svg>
+    </div>
+
+    <!-- Hero content -->
+    <div class="hero-content container">
+        <span class="hero-location-badge">
+            <svg width="14" height="14" fill="#FFC107" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <span data-en="Solapur District, Maharashtra" data-mr="सोलापूर जिल्हा, महाराष्ट्र">Solapur District, Maharashtra</span>
+        </span>
+
+        <h1 class="hero-headline" data-en="DGPS Land Survey &amp; Demarcation" data-mr="DGPS भूमापन आणि हद्द निश्चिती">
+            DGPS Land Survey & Demarcation
+        </h1>
+
+        <p class="hero-sub" data-en="Accurate boundary marking, layout mapping, and land measurement with DGPS precision." data-mr="DGPS अचूकतेद्वारे सीमा निश्चिती, लेआउट मॅपिंग आणि जमीन मोजणी.">
+            Accurate boundary marking, layout mapping, and land measurement with DGPS precision.
+        </p>
+
+        <div class="hero-ctas">
+            <a href="https://wa.me/919511298070?text=Hello,%20I%20need%20land%20survey%20services" class="cta-primary" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.171.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.098.824z"/></svg>
+                <span data-en="WhatsApp Now" data-mr="आता व्हॉट्सॲप करा">WhatsApp Now</span>
+            </a>
+            <a href="tel:9975107208" class="cta-secondary">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                <span data-en="Call 9975107208" data-mr="कॉल करा 9975107208">Call 9975107208</span>
+            </a>
+        </div>
+
+        <!-- Trust Signals -->
+        <div class="trust-bar">
+            <div class="trust-item">
+                <span class="trust-icon">✅</span>
+                <span data-en="Trusted by 100+ Landowners" data-mr="१०० पेक्षा जास्त ग्राहकांचा विश्वास">Trusted by 100+ Landowners</span>
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">🛰️</span>
+                <span data-en="DGPS Certified Equipment" data-mr="DGPS प्रमाणित उपकरणे">DGPS Certified Equipment</span>
+            </div>
+            <div class="trust-item">
+                <span class="trust-icon">📍</span>
+                <span data-en="Serving Solapur District" data-mr="सोलापूर जिल्ह्यात सेवा">Serving Solapur District</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services" class="section services-section">
+    <div class="container">
+        <p class="section-eyebrow" data-en="What We Do" data-mr="आम्ही काय करतो">What We Do</p>
+        <h2 class="section-title" data-en="Our Services" data-mr="आमच्या सेवा">Our Services</h2>
+        <div class="services-grid">
+
+            <div class="card">
+                <div class="card-icon">🛰️</div>
+                <h3 data-en="DGPS Survey" data-mr="DGPS सर्वेक्षण">DGPS Survey</h3>
+                <p data-en="High-accuracy satellite-based land survey." data-mr="उपग्रहावर आधारित उच्च-अचूक जमीन सर्वेक्षण.">High-accuracy satellite-based land survey.</p>
+                <a href="https://wa.me/919511298070?text=I%20need%20DGPS%20Survey%20service" class="card-link" target="_blank" data-en="Enquire →" data-mr="चौकशी करा →">Enquire →</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📐</div>
+                <h3 data-en="Auto Leveling" data-mr="ऑटो लेव्हलिंग">Auto Leveling</h3>
+                <p data-en="Precise elevation and contour leveling for construction." data-mr="बांधकामासाठी उंची आणि लेव्हलिंग.">Precise elevation and contour leveling for construction.</p>
+                <a href="https://wa.me/919511298070?text=I%20need%20Auto%20Leveling%20service" class="card-link" target="_blank" data-en="Enquire →" data-mr="चौकशी करा →">Enquire →</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🗺️</div>
+                <h3 data-en="Land Measurement" data-mr="जमीन मोजणी">Land Measurement</h3>
+                <p data-en="Open, Closed & White land measurement services." data-mr="खुली, बंद आणि पांढरी जमीन मोजणी.">Open, Closed & White land measurement services.</p>
+                <a href="https://wa.me/919511298070?text=I%20need%20Land%20Measurement%20service" class="card-link" target="_blank" data-en="Enquire →" data-mr="चौकशी करा →">Enquire →</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📍</div>
+                <h3 data-en="Demarcation" data-mr="हद्द निश्चिती">Demarcation</h3>
+                <p data-en="Clear boundary marking to resolve land disputes." data-mr="जमीन विवाद सोडवण्यासाठी सीमा निश्चिती.">Clear boundary marking to resolve land disputes.</p>
+                <a href="https://wa.me/919511298070?text=I%20need%20Demarcation%20service" class="card-link" target="_blank" data-en="Enquire →" data-mr="चौकशी करा →">Enquire →</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📏</div>
+                <h3 data-en="Area Measurement" data-mr="क्षेत्रफळ मोजणी">Area Measurement</h3>
+                <p data-en="Exact area calculations with certified instruments." data-mr="प्रमाणित उपकरणांद्वारे अचूक क्षेत्रफळ गणना.">Exact area calculations with certified instruments.</p>
+                <a href="https://wa.me/919511298070?text=I%20need%20Area%20Measurement%20service" class="card-link" target="_blank" data-en="Enquire →" data-mr="चौकशी करा →">Enquire →</a>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📄</div>
+                <h3 data-en="7/12 Extract Assistance" data-mr="७/१२ उतारा सहाय्य">7/12 Extract Assistance</h3>
+                <p data-en="Help with official land and property documents." data-mr="अधिकृत जमीन आणि मालमत्ता कागदपत्रांसाठी मदत.">Help with official land and property documents.</p>
+                <a href="https://wa.me/919511298070?text=I%20need%20712%20Extract%20assistance" class="card-link" target="_blank" data-en="Enquire →" data-mr="चौकशी करा →">Enquire →</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================== WHY US ===================== -->
+<section class="section why-section">
+    <div class="container">
+        <p class="section-eyebrow" data-en="Why Choose Us" data-mr="आम्हाला का निवडावे">Why Choose Us</p>
+        <h2 class="section-title dark-title" data-en="Built on Precision & Trust" data-mr="अचूकता आणि विश्वासावर आधारित">Built on Precision & Trust</h2>
+        <div class="why-grid">
+            <div class="why-item">
+                <div class="why-num">01</div>
+                <h4 data-en="High Accuracy" data-mr="उच्च अचूकता">High Accuracy</h4>
+                <p data-en="DGPS-based sub-centimeter precision on every job." data-mr="प्रत्येक कामात DGPS-आधारित उच्च अचूकता.">DGPS-based sub-centimeter precision on every job.</p>
+            </div>
+            <div class="why-item">
+                <div class="why-num">02</div>
+                <h4 data-en="Fast Turnaround" data-mr="जलद सेवा">Fast Turnaround</h4>
+                <p data-en="Quick response and timely survey completion." data-mr="त्वरित प्रतिसाद आणि वेळेवर काम पूर्ण.">Quick response and timely survey completion.</p>
+            </div>
+            <div class="why-item">
+                <div class="why-num">03</div>
+                <h4 data-en="Local Expertise" data-mr="स्थानिक कौशल्य">Local Expertise</h4>
+                <p data-en="Deep knowledge of Solapur district terrain and land laws." data-mr="सोलापूर जिल्ह्यातील भूभाग आणि जमीन कायद्याचे ज्ञान.">Deep knowledge of Solapur district terrain and land laws.</p>
+            </div>
+            <div class="why-item">
+                <div class="why-num">04</div>
+                <h4 data-en="Certified Reports" data-mr="प्रमाणित अहवाल">Certified Reports</h4>
+                <p data-en="Accurate, court-accepted survey documentation." data-mr="अचूक आणि न्यायालयात मान्य सर्वेक्षण कागदपत्रे.">Accurate, court-accepted survey documentation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== WORK / GALLERY ===================== -->
+<section id="work" class="section">
+    <div class="container">
+        <p class="section-eyebrow" data-en="Our Work" data-mr="आमचे प्रकल्प">Our Work</p>
+        <h2 class="section-title" data-en="Field Photography" data-mr="क्षेत्र छायाचित्रे">Field Photography</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="assets/dgps_survey.png" alt="DGPS Survey Equipment in Solapur" loading="lazy">
+                <div class="gallery-overlay" data-en="DGPS Survey" data-mr="DGPS सर्वेक्षण">DGPS Survey</div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/land_demarcation.png" alt="Land demarcation and boundary marking" loading="lazy">
+                <div class="gallery-overlay" data-en="Boundary Demarcation" data-mr="सीमा निश्चिती">Boundary Demarcation</div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/aerial_survey.png" alt="Aerial land grid mapping" loading="lazy">
+                <div class="gallery-overlay" data-en="Grid Mapping" data-mr="ग्रिड मॅपिंग">Grid Mapping</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about" class="section about-section">
+    <div class="container about-inner">
+        <div class="about-text">
+            <p class="section-eyebrow" data-en="About Us" data-mr="आमच्याबद्दल">About Us</p>
+            <h2 class="section-title text-left" data-en="Solapur's Trusted Surveyors" data-mr="सोलापुरातील विश्वसनीय सर्व्हेअर">Solapur's Trusted Surveyors</h2>
+            <p data-en="Samarth Surveyors & Copiers is Solapur's leading land measurement firm. We use modern DGPS and Auto-Level equipment to deliver millimeter-accurate results for agricultural, residential, and commercial plots. From boundary demarcation to 7/12 extract assistance — we handle every step." data-mr="समर्थ सर्व्हेअर्स अँड कॉपियर्स हे सोलापुरातील अग्रगण्य जमीन मोजणी फर्म आहे. आम्ही आधुनिक DGPS आणि ऑटो-लेव्हल उपकरणे वापरतो. शेतजमीन, निवासी आणि व्यावसायिक जमिनींसाठी अचूक सर्वेक्षण सेवा देतो.">
+                Samarth Surveyors & Copiers is Solapur's leading land measurement firm. We use modern DGPS and Auto-Level equipment to deliver millimeter-accurate results for agricultural, residential, and commercial plots. From boundary demarcation to 7/12 extract assistance — we handle every step.
+            </p>
+        </div>
+        <div class="about-stats">
+            <div class="stat-box">
+                <span class="stat-num">100+</span>
+                <span class="stat-label" data-en="Landowners Served" data-mr="सेवा दिलेले ग्राहक">Landowners Served</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-num">6+</span>
+                <span class="stat-label" data-en="Years of Experience" data-mr="वर्षांचा अनुभव">Years of Experience</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-num">DGPS</span>
+                <span class="stat-label" data-en="Certified Equipment" data-mr="प्रमाणित उपकरणे">Certified Equipment</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="section contact-section">
+    <div class="container contact-wrap">
+        <div class="contact-left">
+            <p class="section-eyebrow light" data-en="Get In Touch" data-mr="संपर्क करा">Get In Touch</p>
+            <h2 class="section-title text-left light-title" data-en="Contact Us" data-mr="संपर्क साधा">Contact Us</h2>
+            <div class="contact-items">
+                <a href="tel:9975107208" class="contact-item">
+                    <span class="ci-icon">📞</span>
+                    <div><strong data-en="Call Us" data-mr="कॉल करा">Call Us</strong><br>9975107208</div>
+                </a>
+                <a href="https://wa.me/919511298070" class="contact-item" target="_blank">
+                    <span class="ci-icon">💬</span>
+                    <div><strong data-en="WhatsApp" data-mr="व्हॉट्सॲप">WhatsApp</strong><br>9511298070</div>
+                </a>
+                <div class="contact-item">
+                    <span class="ci-icon">📍</span>
+                    <div><strong data-en="Location" data-mr="स्थान">Location</strong><br><span data-en="Solapur District, Maharashtra" data-mr="सोलापूर जिल्हा, महाराष्ट्र">Solapur District, Maharashtra</span></div>
+                </div>
+            </div>
+            <div class="map-embed">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121703.62635928682!2d75.83401569974261!3d17.6749964149635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc5d082b54ac5d5%3A0x3c719e16bc439c33!2sSolapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000" width="100%" height="220" style="border:0;border-radius:8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="contact-right">
+            <form id="enquiry-form" class="enquiry-form">
+                <h3 data-en="Send an Enquiry" data-mr="चौकशी पाठवा">Send an Enquiry</h3>
+                <div class="form-group">
+                    <label data-en="Your Name" data-mr="तुमचे नाव">Your Name</label>
+                    <input type="text" id="fname" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label data-en="Phone Number" data-mr="फोन नंबर">Phone Number</label>
+                    <input type="tel" id="fphone" placeholder="Enter your number" required>
+                </div>
+                <div class="form-group">
+                    <label data-en="Requirement" data-mr="आवश्यकता">Requirement</label>
+                    <textarea id="fmsg" rows="4" placeholder="Describe your land survey need..." required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.171.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.098.824z"/></svg>
+                    <span data-en="Send via WhatsApp" data-mr="व्हॉट्सॲपवर पाठवा">Send via WhatsApp</span>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="footer-brand">
+            <span class="footer-logo">SAMARTH SURVEYORS & COPIERS</span>
+            <p data-en="Solapur District, Maharashtra, India" data-mr="सोलापूर जिल्हा, महाराष्ट्र, भारत">Solapur District, Maharashtra, India</p>
+        </div>
+        <div class="footer-links">
+            <a href="#services" data-en="Services" data-mr="सेवा">Services</a>
+            <a href="#work" data-en="Work" data-mr="प्रकल्प">Work</a>
+            <a href="#about" data-en="About" data-mr="आमच्याबद्दल">About</a>
+            <a href="#contact" data-en="Contact" data-mr="संपर्क">Contact</a>
+        </div>
+        <div class="footer-copy">
+            <small>&copy; 2026 Samarth Surveyors & Copiers. All Rights Reserved.</small>
+        </div>
+    </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/919511298070" class="fab-wa" target="_blank" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.171.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.098.824z"/>
+    </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
